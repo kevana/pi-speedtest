@@ -21,5 +21,8 @@ chmod +x speedtest-cli
 
 Add a crontab entry
 ```
-TODO
+crontab -e
+# Add the following line:
+*/15 * * * *  cd /home/pi/pi-speedtest && /home/pi/pi-speedtest/speedtest.py
+# Save and exit the editor
 ```
