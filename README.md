@@ -8,10 +8,7 @@ https://www.reddit.com/r/technology/comments/43fi39/i_set_up_my_raspberry_pi_to_
 Clone repo
 ```
 cd /home/pi
-git clone ...
-cd pi-speedtest
-
-touch /var/www/speedtest/data.csv
+git clone https://github.com/kevana/pi-speedtest.git
 ```
 
 Download [speedtest-cli](https://github.com/sivel/speedtest-cli)

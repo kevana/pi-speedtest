@@ -8,10 +8,8 @@ import csv
 import datetime
 import time
  
-data_file = "/var/www/speedtest/data.csv"
+data_file = "./data.csv"
 st_cli = "/home/pi/speedtest-cli/speedtest-cli"
-#data_file = "./data.csv"
-#st_cli = "./speedtest-cli"
 
 def test():
  
